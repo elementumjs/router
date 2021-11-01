@@ -1,0 +1,51 @@
+{
+  "name": "@elementumjs/router",
+  "version": "0.0.1",
+  "description": "Very basic HTML5 History router implementation for SPA apps.",
+  "files": [
+    "src/*.js",
+    "dist/*.js"
+  ],
+  "main": "dist/router.cjs.js",
+  "module": "dist/router.esm.js",
+  "browser": "dist/router.umd.js",
+  "scripts": {
+    "test": "jest --config=build/jest.config.js",
+    "build": "NODE_ENV=production rollup -c build/rollup.config.js",
+    "dev": "rollup -w -c build/rollup.config.js",
+    "start": "npm run dev",
+    "docs": "typedoc --tsconfig build/tsconfig.json --out docs --hideGenerator --hideBreadcrumbs src/lib/*.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elementumjs/router.git"
+  },
+  "author": "Lucas Menendez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/elementumjs/router/issues"
+  },
+  "homepage": "https://github.com/elementumjs/router#readme",
+  "devDependencies": {
+    "@babel/plugin-transform-runtime": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "@babel/runtime": "^7.15.4",
+    "@rollup/plugin-babel": "^5.3.0",
+    "@rollup/plugin-commonjs": "^21.0.1",
+    "@rollup/plugin-node-resolve": "^13.0.6",
+    "@rollup/plugin-typescript": "^8.3.0",
+    "@types/jest": "^27.0.2",
+    "@types/node": "^16.11.6",
+    "babel-jest": "^27.3.1",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "jest": "^27.3.1",
+    "rollup": "^2.58.3",
+    "rollup-plugin-terser": "^7.0.2",
+    "ts-jest": "^27.0.7",
+    "tslib": "^2.3.1",
+    "typedoc": "^0.22.7",
+    "typedoc-plugin-markdown": "^3.11.3",
+    "typescript": "^4.4.4"
+  }
+}
