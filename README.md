@@ -220,7 +220,7 @@ Checkout other import methods in [`dist/README.md`](./dist/README.md).
 
 [8]: #router-initialization
 
-[9]: #navigate-betweenrroutes
+[9]: #navigate-between-routes
 
 [10]: #full-example
 
