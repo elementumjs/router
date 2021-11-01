@@ -212,7 +212,7 @@ Checkout other import methods in [`dist/README.md`](./dist/README.md).
 
 [4]: docs/modules.md
 
-[5]: LICENSE
+[5]: ./LICENSE
 
 [6]: #how-to-use-it
 
