@@ -3,7 +3,7 @@ const URI_SEPARATOR: string = '#';
 
 /**
  * The Route type defines the properties thar any route could have. A valid route
- * will has defined its view and path at least. The title and params properties
+ * will has defined its view and path at least. The title and handler properties
  * are optional.
  */
 type Route = {

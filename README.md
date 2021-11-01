@@ -96,7 +96,7 @@ The navigation is possible with two ways, with HTML anchors or programmatically.
 
 ## Full example
 
-<img src="https://raw.githubusercontent.com/elementumjs/router/main/assets/demo.gif" width="350"/>
+<img src="https://raw.githubusercontent.com/elementumjs/router/main/assets/demo.gif" width="600"/>
 
 WebApp entry point `app.js`;
 
